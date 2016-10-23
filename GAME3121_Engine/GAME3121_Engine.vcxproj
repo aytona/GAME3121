@@ -146,6 +146,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="actor.hpp" />
+    <ClInclude Include="actorcomponent.hpp" />
     <ClInclude Include="applicationclass.hpp" />
     <ClInclude Include="gamelogicclass.hpp" />
     <ClInclude Include="gameviewclass.hpp" />

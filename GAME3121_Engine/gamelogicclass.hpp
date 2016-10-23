@@ -11,5 +11,4 @@ public:
     void Shutdown();
     void BeginScene();
     void EndScene();
-
 };
