@@ -10,4 +10,18 @@ public:
     ApplicationClass();
     ApplicationClass(const ApplicationClass&);
     ~ApplicationClass();
+
+    bool Initialize();
+    void Shutdown();
+    void Run();
+
+private:
+    bool Frame();
+    void InitializeWindows(int&, int&);
+    void ShutdownWindows();
+
+private:
+    HWND m_hwnd;
+    GameviewClass* m_GameView;
+    GamelogicClass* m_GameLogic;
 };
