@@ -21,6 +21,8 @@ private:
     void ShutdownWindows();
 
 private:
+    LPCWSTR m_applicationName;
+    HINSTANCE m_hinstance;
     HWND m_hwnd;
     GameviewClass* m_GameView;
     GamelogicClass* m_GameLogic;

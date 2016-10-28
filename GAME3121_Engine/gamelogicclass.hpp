@@ -1,5 +1,7 @@
 #pragma once
 
+#include "actormanager.hpp"
+
 class GamelogicClass
 {
 public:
@@ -9,6 +11,11 @@ public:
 
     bool Initialize();
     void Shutdown();
-    void BeginScene();
-    void EndScene();
+    void Update(float);
+
+private:
+    void UpdateActors(float);
+
+private:
+    ActorManager* m_ActorManager;
 };

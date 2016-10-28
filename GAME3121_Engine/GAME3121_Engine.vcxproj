@@ -148,11 +148,16 @@
   <ItemGroup>
     <ClInclude Include="actor.hpp" />
     <ClInclude Include="actorcomponent.hpp" />
+    <ClInclude Include="actormanager.hpp" />
     <ClInclude Include="applicationclass.hpp" />
+    <ClInclude Include="engine.hpp" />
     <ClInclude Include="gamelogicclass.hpp" />
     <ClInclude Include="gameviewclass.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="applicationclass.cpp" />
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="gamelogicclass.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
